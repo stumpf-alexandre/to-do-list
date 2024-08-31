@@ -2,7 +2,15 @@
 Criando uma lista de tarefas
  
 Objetivo: Desenvolver uma aplicação web simples de lista de tarefas (To-Do List) com funcionalidades básicas de criação, visualização, edição e exclusão de tarefas. A aplicação será dividida em duas partes: Frontend e Backend.
- 
+
+# Visão geral do projeto:
+## É um software que ajuda a organizar tarefas a serem cumpridas, tanto a nivel pessoal, quanto a nivel profissional.
+## Suas principais funcionalidades é:
+   - Criar uma tarefa e adiciona-la a uma lista.
+   - Editar uma tarefa já salva na lista.
+   - Em caso da terefa ter sido executada pelo usuário, a mesma pode ser checada na lista, deixando-a com uma aparencia de linha tachada na palavra e uma caixa com o icone cheked.
+   - Excluir a tarefa da lista.
+
 Requisitos do Projeto
  
 Frontend
