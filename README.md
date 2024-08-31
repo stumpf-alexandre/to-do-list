@@ -16,6 +16,19 @@ Objetivo: Desenvolver uma aplicação web simples de lista de tarefas (To-Do Lis
    - Para iniciar o npm, no terminal deve ser escrito o comando npm init, que vem junto com a instalação do Node.js, e fornecer alguns dados para criar um arquivo package.json.
    - Para instalar o express, digite no terminal npm i express para instalar as dependências do express no pacote do projeto, com isso criamos uma pasta node_modules e um arquivo package-lock.json.
 
+# Descrição das tecnologias usadas:
+## VS Code - editor de código-fonte de uma ampla gama de linguagens, possui recursos de depuração embutidos e testes.
+
+## Node.js v20.17.0(LTS) - é um motor que roda Javascript baseado no Chrome para rodar uma aplicação localmente. No Node.js temos o:
+   - npm para gerenciar os pacotes, frameworks e bibliotecas.
+   - Express.js é uma biblioteca para desenvolver aplicações Javascript com o Node.js.
+
+## Git - sistema para controlar as versões dos arquivos desenvolvidos com um histórico, caso haja algum problema voce pode desfazer as alterações e voltar para a versão que estava estáve. Isto é registrado localmente na máquina que se está desenvolvendo.
+
+## Github - é uma plataforma online para armazenar os projetos e suas alterações.
+
+## h2 database - é um sistema de gestão de banco de dados relacional, que servirá para persistir os dados da lista de tarefas.
+
 Requisitos do Projeto
  
 Frontend
