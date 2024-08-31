@@ -8,8 +8,13 @@ Objetivo: Desenvolver uma aplicação web simples de lista de tarefas (To-Do Lis
 ## Suas principais funcionalidades é:
    - Criar uma tarefa e adiciona-la a uma lista.
    - Editar uma tarefa já salva na lista.
-   - Em caso da terefa ter sido executada pelo usuário, a mesma pode ser checada na lista, deixando-a com uma aparencia de linha tachada na palavra e uma caixa com o icone cheked.
+   - Em caso da tarefa ter sido executada pelo usuário, a mesma pode ser checada na lista, deixando-a com uma aparencia de linha tachada na palavra e uma caixa com o icone cheked.
    - Excluir a tarefa da lista.
+
+# Instruções de configuração e execução: Como instalar as dependências, configurar o ambiente e executar a aplicação.
+   - Na página de downloads do Node, baixar e instalar no PC a versão atualizada LTS.
+   - Para iniciar o npm, no terminal deve ser escrito o comando npm init, que vem junto com a instalação do Node.js, e fornecer alguns dados para criar um arquivo package.json.
+   - Para instalar o express, digite no terminal npm i express para instalar as dependências do express no pacote do projeto, com isso criamos uma pasta node_modules e um arquivo package-lock.json.
 
 Requisitos do Projeto
  
