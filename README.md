@@ -29,15 +29,6 @@ Objetivo: Desenvolver uma aplicação web simples de lista de tarefas (To-Do Lis
 
 ## h2 database - é um sistema de gestão de banco de dados relacional, que servirá para persistir os dados da lista de tarefas.
 
-# Informações sobre a estrutura do projeto: O padrão de arquitetura utilizado é o MVC, que sugere uma divisão de responsabilidades ou mais especificos três camadas.
-## Model - a camada de acesso e manipulação dos dados. A sua responsabilidade é representar o negócio.
-
-## View - a camada de interação do usuário por possuir as interfaces, ela mostra as informações do Model.
-
-## Controller - é a camada de controle, responsavel por ligar o model e a view, fazendo com que a model repasse seus dados as views e vice-versa.
-
-<img src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/06/diagramaMVC.png" alt="Diagrama da estrutura MVC">
-
 Requisitos do Projeto
  
 Frontend
