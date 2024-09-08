@@ -1,24 +1,9 @@
-//importando biblioteca express
-const express = require('express')
+import express from 'express'
 const app = express()
 const PORT = 3000
 
-//configurando com verbos HTTP (GET, POST, DELETE, PUT)
 app.get('/', (req, res) => {
-    res.send("Ola get")
-})
-app.post('/', (req, res) => {
-    res.send("Ola post")
+    res.send("Ola mundo corrigindo bug");
+});
 
-})
-app.delete('/', (req, res) => {
-    res.send("Ola delete")
-})
-app.put('/', (req, res) => {
-    res.send("Ola put")
-})
-
-//função do express que ficar ouvindo na porta que configuramos
-app.listen(PORT, () => {
-    console.log(`Ola mundo, estou funcionando na porta ${PORT}`)
-})
+app.listen(PORT);
