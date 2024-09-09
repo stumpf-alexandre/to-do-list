@@ -4,11 +4,13 @@ import { listTasks, createTask } from "../services/task.js"
 const router = Router()
 
 //configurando com metodos HTTP (GET, POST, DELETE, PUT)
-router.get('/', (req, res) => {
-    res.send("Ola Mundo GET")
+router.get('/', async (req, res) => {
+    const tasksList = await listTasks()
+    res.status(200).send(tasksList)
 })
-router.post('/', (req, res) => {
-    res.send("Ola Mundo POST")
+router.post('/', async (req, res) => {
+    const task = await createTask(req.body)
+    res.status(201).send(task)
 })
 router.delete('/', (req, res) => {
     res.send("Ola Mundo DELETE")
