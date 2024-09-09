@@ -1,10 +1,11 @@
-//importando biblioteca express
 import express from 'express'
-import taskControllers from './controllers/task.js'
 const app = express()
 const PORT = 3000
 
-app.use('/task', taskControllers)
+app.use(express.json())
 
-//função do express que ficar ouvindo na porta que configuramos
-app.listen(PORT)
+app.get('/', (req, res) => {
+    res.send("Ola mundo corrigindo bug");
+});
+
+app.listen(PORT);
